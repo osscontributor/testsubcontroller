@@ -1,6 +1,6 @@
 package com.demo
 
-class MyController {
+class MyController extends OtherController{
 
     def create = {
         render 'MyController.created'
